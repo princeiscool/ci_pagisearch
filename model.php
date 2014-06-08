@@ -22,7 +22,7 @@
         //Create array from the forms inputs and session the array
         if($this->input->post('submit_search')){
 
-            //validate search in put and create array for session
+            //validate search post and create array for session
             if($this->validate_search()){
 
                 $arr = array(
