@@ -1,8 +1,11 @@
 <?php 
-    //Codeigniter Model
+    //Model
+
+    //Database search attempt with codeigniter pagination 
+    //and to get total of num rows before LIMIT statement executes.
 
     //Search for products and return results.
-    //Requires per page limit and offset for pagination
+    //Requires per page limit and offset for pagination.
     //Create session for inputs to keep pagination active for the view results
     function search_products($perPAGE,$offset){
 
